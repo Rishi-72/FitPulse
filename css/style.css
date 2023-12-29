@@ -624,21 +624,22 @@ color:#fd0a0adb;
 
 .team-container {
   display: flex;
-  flex-wrap: nowrap; /* Ensure that the cards don't wrap to the next line */
-  justify-content: space-around; /* Adjust alignment as per your preference */
+  flex-wrap: wrap;
+  justify-content: space-around;
   align-items: center;
   margin-top: 20px;
+  height: 30%;
 }
 
 .cardinfo {
-  width: 300px;
-  height: 480px;
+  width: 380px;
   margin: 20px;
   padding: 20px;
   text-align: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   background-color: #a3e7e1;
+  height: 630px;
 }
 
 .cardinfo img {
@@ -657,7 +658,6 @@ color:#fd0a0adb;
   font-size: 16px;
   margin-bottom: 15px;
 }
-
 .social-icons a {
   margin-right: 10px;
   font-size: 20px;
