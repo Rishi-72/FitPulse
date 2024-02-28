@@ -632,7 +632,7 @@ color:#fd0a0adb;
 }
 
 .cardinfo {
-  width: 380px;
+  width: 400px;
   margin: 20px;
   padding: 20px;
   text-align: center;
@@ -643,7 +643,7 @@ color:#fd0a0adb;
 }
 
 .cardinfo img {
-  width: 100%;
+  width: 110%;
   border-radius: 10%;
   margin-bottom: 15px;
   height: 450px;
@@ -658,6 +658,7 @@ color:#fd0a0adb;
   font-size: 16px;
   margin-bottom: 15px;
 }
+
 .social-icons a {
   margin-right: 10px;
   font-size: 20px;
